@@ -1,0 +1,33 @@
+html {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  // font-family: "Lato", sans-serif;
+  // font-weight: 100;
+  font-style: normal;
+}
+// Fonts
+.lato {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+.karla {
+  font-family: "Karla", sans-serif;
+  // font-weight: 100;
+  font-style: normal;
+}
+section {
+  padding: 3.5rem 0;
+  min-height: 768px;
+}
+
+.card {
+  .icon {
+    width: 70px;
+    height: 70px;
+    opacity: 0.5 !important;
+  }
+  border-radius: 15px !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 60px 40px;
+}

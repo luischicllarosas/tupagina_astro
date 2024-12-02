@@ -6,5 +6,18 @@
   ],
   "exclude": [
     "dist"
-  ]
+  ],
+  "compilerOptions": {
+    // "strict": true,
+    // "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "jsx": "preserve",
+    "jsxImportSource": "react"
+  }
 }

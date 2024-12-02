@@ -9,8 +9,28 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.16",
     "@astrojs/check": "^0.9.4",
-    "typescript": "^5.7.2"
+    "@astrojs/react": "^3.6.3",
+    "@astrojs/tailwind": "^5.1.2",
+    "@astrojs/vue": "^4.5.3",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "astro": "^4.16.16",
+    "astro-seo": "^0.8.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "framer-motion": "^11.12.0",
+    "lucide-react": "^0.462.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-spring": "^9.7.4",
+    "sass": "^1.81.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss": "^3.4.15",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.7.2",
+    "vue": "^3.5.13"
   }
 }
