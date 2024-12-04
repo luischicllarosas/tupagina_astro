@@ -17,11 +17,11 @@
 
 /* button styling */
 .button {
-  --border-right: 6px;
+  --border-right: 4px;
   --text-stroke-color: rgba(255, 255, 255, 0.6);
   --animation-color: #37ff8b;
-  --fs-size: 1.5em;
-  letter-spacing: 3px;
+  --fs-size: 1.2em;
+  letter-spacing: 4px;
   text-decoration: none;
   font-size: var(--fs-size);
   font-family: "Arial";

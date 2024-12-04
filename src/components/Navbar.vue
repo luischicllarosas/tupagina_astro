@@ -1,15 +1,13 @@
 <script lang="ts" setup>
+import BtnContact from "./ui/btn-contact.vue";
 import Logo from "./ui/Logo.vue";
 </script>
 
 <template>
   <nav class="navbar">
     <img class="logo" src="icons/logo/logo_white.svg" alt="" />
-    <!-- <span class="karla font-semibold text-2xl content-center ml-5"
-      >tupagina.com.pe</span
-    > -->
     <Logo class="ml-5" />
-    <a class="codepen-button ml-auto"><span>Contactar</span></a>
+    <BtnContact />
   </nav>
 </template>
 
@@ -19,7 +17,7 @@ import Logo from "./ui/Logo.vue";
   padding: 1rem;
   //   justify-content: space-between;
   .logo {
-    width: 60px;
+    width: 55px;
     height: auto;
     // margin-re: auto;
   }

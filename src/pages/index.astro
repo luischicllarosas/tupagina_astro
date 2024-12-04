@@ -5,7 +5,9 @@ import Layout from "../layouts/Layout.astro";
 import "../styles/global.scss";
 import "../styles/ui.css";
 
-import Marquee from "@/components/Hero";
+import Services from "@/components/Services";
+import Intro from "@/components/Intro";
+import Footer from "@/components/Footer.astro";
 // Welcome to Astro../components/Hero.jsx Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
@@ -15,10 +17,13 @@ import Marquee from "@/components/Hero";
   <!-- External -->
 </head>
 <Layout>
-  <main class="main px-4">
+  <main class="main p-10">
     <div class="container mx-auto">
       <Navbar />
-      <Marquee />
+      <!--  -->
+      <Intro />
+      <Services />
+      <Footer />
     </div>
   </main>
 </Layout>
