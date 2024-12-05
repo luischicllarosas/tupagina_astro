@@ -18,7 +18,7 @@ export default defineConfig({
     }),
     react({
       // include: ["**/react/*"],
-      // experimentalReactChildren: true,
+      // experimentalReactChildren: true, 
     }),
     vue(),
     icon({

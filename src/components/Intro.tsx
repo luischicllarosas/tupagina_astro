@@ -7,7 +7,7 @@ export default function BlurFadeTextDemo() {
     <section className="content-center">
       <WaveReveal text="Realza tu imagen" />
       <div className="justify-items-center pt-5">
-        <TextFlip text="Ayudamos a nuestros clientes a crear" />
+        <TextFlip text="Mas que paginas ayudamos a crear" />
       </div>
     </section>
   );

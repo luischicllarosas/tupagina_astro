@@ -4,7 +4,7 @@ import Marquee from "@/components/ui/marquee";
 const reviewsLeft = [
   {
     title: "Desarrollo Web",
-    body: "Brindamos múltiples ideas nuevas para construir algo destacado para sus clientes.",
+    body: "Múltiples ideas creativas para paginas web que impacten a tus clientes.",
     img: "icons/services/0.png",
   },
   {
