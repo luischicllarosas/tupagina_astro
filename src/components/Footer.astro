@@ -1,8 +1,11 @@
 ---
 import { Icon } from "astro-icon/components";
+import dayjs from "dayjs";
+
+const year = dayjs().get("year");
 ---
 
-<footer>
+<footer class="karla">
   <div class="items-center py-5 justify-items-center">
     <img class="logo" src="icons/logo/logo_white.svg" alt="" width="90px" />
   </div>
@@ -22,6 +25,11 @@ import { Icon } from "astro-icon/components";
         <Icon name="location" class={"text-secondary"} size={"24px"} />
         <span class="text font-medium">Lima, Peru</span>
       </div>
+    </div>
+    <div class="text-center py-5">
+      Copyright {year}
+      <span class="text-secondary">Tupagina.com.pe</span>
+      Desarrollo de Páginas Web en Perú - Diseño Profesional y SEO Optimizado
     </div>
   </div>
 </footer>

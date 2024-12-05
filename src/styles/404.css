@@ -7,6 +7,8 @@
   justify-content: center;
   width: 30em;
   height: 30em;
+  width: 100%;
+  min-height: 50vh;
 }
 
 .main {
